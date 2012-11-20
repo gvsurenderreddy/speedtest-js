@@ -1,0 +1,232 @@
+body {
+  font: 0.875em "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+#masthead {
+  width: 100%;
+  background-image: url(/img/masthead_bg.png);
+  background-repeat: repeat-x;
+  overflow: hidden;
+  height: 100px;
+}
+
+#masthead-title {
+  float: left;
+  margin: 25px 0 0 100px;
+}
+
+#masthead-title-symbol {
+  margin: 0 1em 0 0;
+  vertical-align: bottom;
+}
+
+#masthead-title-text {
+  font: 2em bold "Ludida Grande", Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+#content {
+  padding: 20px 0 0 150px;
+}
+
+.logdiv {
+  /* height: 8em; */
+  /* overflow-x: hidden; */
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+  background-color: #FCFCFC;
+  border: 1px solid #CCC;
+  font: medium monospace;
+  top: 245px;
+}
+
+.logmsg {
+  font: normal 10px "Lucida Sans Typewriter", "Courier New", Courier, fixed;
+  border-bottom: 1px solid #CCC;
+  padding: 2px;
+}
+
+.dbg-f {
+  color: #999;
+}
+
+#lcd {
+  position: relative;
+}
+
+#lcd-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+/*        */
+/* period */
+/*        */
+
+#period {
+  position: absolute;
+  left: 222px;
+  top: 129px;
+}
+
+.period-show {
+  display: block;
+}
+
+.period-noshow {
+  display: none;
+}
+
+
+/*             */
+/* big numbers */
+/*             */
+
+#big-num-tens {
+  position: absolute;
+  left: 38px;
+  top: 15px;
+  background-image: url(/img/lcd/large_number_single_image.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 116px;
+  height: 156px;
+}
+
+#big-num-ones {
+  position: absolute;
+  left: 133px;
+  top: 15px;
+  background-image: url(/img/lcd/large_number_single_image.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 116px;
+  height: 156px;
+}
+
+.big-num-nothing {
+  background-position: 0 156px;
+}
+
+.big-num-1 {
+  background-position: 0 0px;
+}
+
+.big-num-2 {
+  background-position: 0 -156px;
+}
+
+.big-num-3 {
+  background-position: 0 -312px;
+}
+
+.big-num-4 {
+  background-position: 0 -468px;
+}
+
+.big-num-5 {
+  background-position: 0 -624px;
+}
+
+.big-num-6 {
+  background-position: 0 -780px;
+}
+
+.big-num-7 {
+  background-position: 0 -936px;
+}
+
+.big-num-8 {
+  background-position: 0 -1092px;
+}
+
+.big-num-9 {
+  background-position: 0 -1248px;
+}
+
+.big-num-0 {
+  background-position: 0 -1404px;
+}
+/* end big numbers */
+
+
+/*               */
+/* small numbers */
+/*               */
+
+#small-num-tens {
+  position: absolute;
+  left: 256px;
+  top: 19px;
+  background-image: url(/img/lcd/small_number_single_image.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 78px;
+  height: 106px;
+}
+
+#small-num-ones {
+  position: absolute;
+  left: 316px;
+  top: 19px;
+  background-image: url(/img/lcd/small_number_single_image.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 78px;
+  height: 106px;
+}
+
+.small-num-nothing {
+  background-position: 0 106px;
+}
+
+.small-num-1 {
+  background-position: 0 0px;
+}
+
+.small-num-2 {
+  background-position: 0 -106px;
+}
+
+.small-num-3 {
+  background-position: 0 -212px;
+}
+
+.small-num-4 {
+  background-position: 0 -318px;
+}
+
+.small-num-5 {
+  background-position: 0 -424px;
+}
+
+.small-num-6 {
+  background-position: 0 -530px;
+}
+
+.small-num-7 {
+  background-position: 0 -636px;
+}
+
+.small-num-8 {
+  background-position: 0 -742px;
+}
+
+.small-num-9 {
+  background-position: 0 -848px;
+}
+
+.small-num-0 {
+  background-position: 0 -954x;
+}
+/* end small numbers */
+

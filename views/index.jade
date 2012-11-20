@@ -1,0 +1,24 @@
+
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container
+      a(href="#").brand Speedtest
+
+.container
+  div#hero.hero-unit
+    div#container-A
+      h1 Welcome to Speedtest
+      p
+        em Speedtest
+        | &nbsp;measures your available download bandwidth at a point in time.  Your total bandwidth, if shared, is likely greater than what this test reports.
+    div#container-B
+      a().btn.btn-primary.btn-large#btn-run Run a test!
+    div#container-C
+      div#results-col-A
+      div#results-col-B
+      div#results-col-C
+  div#logger
+
+script(src='/js/jquery.min.js')
+script(src='/js/speedtest.js')
+
